@@ -1,0 +1,27 @@
+# Кэш Python и виртуальное окружение
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Сборка PyInstaller
+build/
+dist/
+*.spec
+*.bak
+
+# Локальные данные, логи и резервные копии
+data/
+backups/
+logs/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Настройки IDE
+.idea/
+.vscode/
